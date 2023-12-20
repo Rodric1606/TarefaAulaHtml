@@ -1,0 +1,46 @@
+/* Geral */
+body{
+    margin: 0rem 3.5rem 2.5rem 3.5rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+footer{
+    color: gray;
+}
+
+/*------------------------------------------------------*/
+/* Header */
+
+/*------------------------------------------------------*/
+/* Article */
+
+#textObjetivo{
+    padding: 0rem 5.5rem 0rem 0rem;
+    text-align: justify;
+}
+
+
+/*------------------------------------------------------*/
+/* section */
+
+.formacao li{
+    padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.descFormacao{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.descSecao{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
