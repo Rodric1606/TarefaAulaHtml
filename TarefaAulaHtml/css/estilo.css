@@ -1,31 +1,63 @@
 /* Geral */
 body{
-    margin: 0rem 3.5rem 2.5rem 3.5rem;
+    /*margin: 3rem 3.5rem 2.5rem 3.5rem;*/
+    margin: 3% 1% 1% 3%;
 }
 
+
 h1{
-    font-size: 2.5rem;
+    font-size: 250%;
+    margin: 0rem ;
 }
 
 h2{
-    padding: 0.5rem 0rem 0.5rem 0rem;
+    padding: 3% 0% 3% 2%;
 }
 
 footer{
     color: gray;
 }
 
+article{
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+
 /*------------------------------------------------------*/
 /* Header */
 
-/*------------------------------------------------------*/
-/* Article */
 
-#textObjetivo{
-    padding: 0rem 5.5rem 0rem 0rem;
-    text-align: justify;
+.foto img{
+    width: 10rem;
 }
 
+.foto{
+    display: flex;
+    float: left;
+    padding: 0rem 1rem 0rem 0rem;
+
+}
+.nome{
+    display: flex;
+    text-align: center;
+}
+
+.infoContato{
+    display: flex;
+}
+
+.infoContato span{
+    font-size: 80%;
+    padding: 0rem 20rem 0rem 0rem;
+}
+
+.texto{
+    font-size: 80%;
+    display: flex;
+    text-align: left;
+    margin: 1.5% 15% 0% 0%;
+}
 
 /*------------------------------------------------------*/
 /* section */
