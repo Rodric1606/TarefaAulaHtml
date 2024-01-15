@@ -1,37 +1,106 @@
 /* Geral */
+
+
 body{
-    margin: 0rem 3.5rem 2.5rem 3.5rem;
+    /*margin: 3rem 3.5rem 2.5rem 3.5rem;*/
+    margin: 1%;
+    font-family: 'Ruluko', sans-serif;
+    /*
+    font-family: 'Ruluko', sans-serif;
+    font-family: 'Ubuntu', sans-serif; */
 }
 
+header{
+    background:  #bd5d38;
+    padding: 2% 1%;
+}
+
+hr{
+    border-color: #bd5d38;
+    border-width: 0.5rem;
+}
+
+
 h1{
-    font-size: 2.5rem;
+    font-size: 250%;
+    margin: 0rem ;
 }
 
 h2{
-    padding: 0.5rem 0rem 0.5rem 0rem;
+    padding: 3% 0% 3% 2%;
+    color: #bd5d38;
+    font-weight: bold;
+}
+
+
+section{
+    border: 1rem #bd5d38;
+}
+
+article{
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+span{
+        color: #bd5d38;
+}
+
+ul{
+    padding: 0rem 1rem 1rem 5rem;
 }
 
 footer{
-    color: gray;
+    background:  #bd5d38;
+    padding: 1rem 1rem;
 }
 
 /*------------------------------------------------------*/
 /* Header */
 
-/*------------------------------------------------------*/
-/* Article */
 
-#textObjetivo{
-    padding: 0rem 5.5rem 0rem 0rem;
-    text-align: justify;
+.foto img{
+    width: 10rem;
+    margin: 0;
 }
 
+.foto{
+    display: flex;
+    float: left;
+    border: 0.5rem #bd5d38;
+    border-style: solid;
+
+}
+.nome{
+    display: flex;
+    text-align: center;
+    color: white;
+    font-weight:700;
+}
+
+.infoContato{
+    display: flex;
+    color: white;
+}
+
+.infoContato span{
+    font-size: 80%;
+    color: white;
+}
+
+.texto{
+    font-size: 80%;
+    display: flex;
+    text-align: left;
+    margin: 3% 20% 0% 0%;
+    color: white;
+}
 
 /*------------------------------------------------------*/
 /* section */
 
 .formacao li{
-    padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
     margin: 1.5rem 0.5rem 0.5rem 0.5rem;
 }
 
@@ -43,4 +112,21 @@ footer{
 .descSecao{
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+#secao{
+    padding: 0rem 2rem 1rem 5rem;
+}
+
+/*----------------------------------------------------*/
+/* Footer */
+
+.linkedin footer{
+    display: flex;
+    text-decoration: none;
+}
+
+.github footer{
+    display: flex;
+    text-decoration: none;
 }
