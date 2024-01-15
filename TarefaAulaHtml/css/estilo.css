@@ -32,9 +32,6 @@ h2{
     font-weight: bold;
 }
 
-footer{
-    color: gray;
-}
 
 section{
     border: 1rem #bd5d38;
@@ -49,6 +46,14 @@ span{
         color: #bd5d38;
 }
 
+ul{
+    padding: 0rem 1rem 1rem 5rem;
+}
+
+footer{
+    background:  #bd5d38;
+    padding: 1rem 1rem;
+}
 
 /*------------------------------------------------------*/
 /* Header */
@@ -56,12 +61,13 @@ span{
 
 .foto img{
     width: 10rem;
+    margin: 0;
 }
 
 .foto{
     display: flex;
     float: left;
-    border: 1rem #bd5d38;
+    border: 0.5rem #bd5d38;
     border-style: solid;
 
 }
@@ -106,4 +112,21 @@ span{
 .descSecao{
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+#secao{
+    padding: 0rem 2rem 1rem 5rem;
+}
+
+/*----------------------------------------------------*/
+/* Footer */
+
+.linkedin footer{
+    display: flex;
+    text-decoration: none;
+}
+
+.github footer{
+    display: flex;
+    text-decoration: none;
 }
